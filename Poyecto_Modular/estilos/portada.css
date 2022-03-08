@@ -1,0 +1,58 @@
+:root{
+	--primary:#F47C48;
+	--secondary:#5EAAA8;
+	--bar:#5eac93;
+	--estilo:#397FAE;
+	--azulito:#A3D2CA;
+	
+}
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap');	
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	font-family: 'Kaisei Opti', serif;
+}
+body{
+	background-image: url(../imag/mascotas2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+#cnColor{
+	width: 100vw;
+	height: 100vh;
+	background-color: var(--estilo);
+	opacity: .7;
+}
+#cnTexto{
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+h1{
+	font-size: 50px;
+}
+
+#btEntrar{
+	cursor: pointer;
+	border: 5px solid white;
+	width: 10%;
+	border-radius: 20px;
+	padding: 15px;
+	margin: 0 auto;
+	margin-top: 45vh;
+}
+#btEntrar:hover{
+	opacity: 0.8;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+

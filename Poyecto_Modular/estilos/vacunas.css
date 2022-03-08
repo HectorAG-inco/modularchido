@@ -1,0 +1,202 @@
+:root{
+	--primary:#F47C48;
+	--secondary:#5EAAA8;
+	--bar:#5eac93;
+	--estilo:#397FAE;
+	--azulito:#A3D2CA;
+	
+}
+
+@font-face{
+	font-family: 'Letras';
+	src: url(KiwiMaru-Light.ttf);
+	font-weight: bold;
+}
+
+.Alerta{
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 0;
+
+	background-color: rgba(255,255,255,0.4);
+}
+
+.close-modal:hover{
+	transform: scale(1.2);
+}
+
+.close-modal{
+	width: 10px;
+	height: 10px;
+	background: red;
+	position: absolute;
+	top: 0.2em;
+	right: 0.375em;
+	margin: 0;
+	padding: 5px;
+	border-radius: 50%;
+	font-weight: bold;
+	font-size: 8px;
+}
+
+.nave ul li{
+	list-style: none;
+	margin-left: 80%;
+
+}
+
+.addUser{
+	width: 30px;
+	height: 30px;
+	border: none;
+	border-radius: 50% ;
+	background-color: var(--primary);
+	box-shadow: 0px 10px 10px rgb(54, 54, 54,0.8);
+	font-size: 20px;
+	text-align: center;
+}
+
+.addUser span{
+	color:var(--estilo);
+	margin: auto;
+}
+
+.addUser:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+#colornav{
+	background-color: var(--estilo); 
+}
+
+#colorside{
+	background-color: var(--primary); 
+}
+
+body{
+	background-color: var(--azulito);
+}
+
+#fotoperro{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+#menu{
+	margin-top: 10px;
+}
+.main{
+ margin-left: 2%;
+ margin-right: 2%;
+}
+
+table{
+	background-color: white;
+	border: solid 3px;
+}
+
+table th{
+	background-color: var(--bar);
+	color: white;
+	border: solid 3px;
+	width: 15vw;
+}
+
+table td{
+	border-left: solid 2px;
+	border-right: solid 2px;
+	border-bottom: solid 2px;
+	text-align: center;
+}
+
+.w3-button:hover{
+	transform: scale(1.2);
+}
+
+.w3-sidebar::-webkit-scrollbar {
+    -webkit-appearance: none;
+} 
+
+.w3-sidebar::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.w3-sidebar::-webkit-scrollbar-button:increment.w3-sidebar::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.w3-sidebar::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+ .w3-sidebar::-webkit-scrollbar-thumb {
+    background-color: var(--bar);
+    border-radius: 20px;
+    border: none;
+}
+ .w3-sidebar::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}  
+
+#Cerrar{
+	padding: 5px;
+	width: 35px;
+	right: 10px;
+	top: 10px;
+	border-radius: 50%;
+	border-color: var(--primario);
+	background-color: #f21170;
+	position: absolute;
+}
+#Cerrar:hover{
+	box-shadow: 0px 0px 5px gray;
+	cursor: pointer;
+}
+
+#Guardar{
+	padding: 5px;
+	width: 70px;
+	background-color: var(--primario);
+	border-radius: 5px;
+	right: 10px;
+}
+#Guardar:hover{
+	box-shadow: 0px 0px 5px gray;
+	cursor: pointer;
+}
+#texto{
+	left: 10px;
+}
+[type="text"]{
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+.Alerta{
+	top: 20vh;
+	padding: 10px;
+	width: 30vw;
+	height: 160px;
+	display: inline-block;
+	position: absolute;
+	left: 27%;
+	z-index: 2000000;
+	background-color: var(--primary);
+}
+.oculto{
+	display: none;
+}
+
+#modal{
+	width: 12000px;
+	height: 1000px;
+	 background-color: rgba(255, 255, 255, 0.8);
+	z-index: 10000;
+
+}

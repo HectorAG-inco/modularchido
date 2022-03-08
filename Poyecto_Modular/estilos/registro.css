@@ -1,0 +1,31 @@
+:root{
+	--primary:#F47C48;
+	--secondary:#5EAAA8;
+	--bar:#5eac93;
+	--estilo:#397FAE;
+	--azulito:#A3D2CA;
+	
+}
+
+@font-face{
+	font-family: 'Letras';
+	src: url(KiwiMaru-Light.ttf);
+	font-weight: bold;
+}
+
+body{
+	background-color: var(--azulito);
+}
+
+.separar{
+   margin-top: 10%;
+}
+
+.sombra{
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#back{
+	text-decoration: none;
+	color: white;
+}

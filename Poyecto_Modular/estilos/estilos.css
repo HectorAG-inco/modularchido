@@ -1,0 +1,68 @@
+:root{
+	--primary:#F47C48;
+	--secondary:#5EAAA8;
+	--bar:#5eac93;
+	--estilo:#397FAE;
+	--azulito:#A3D2CA;
+	
+}
+
+@font-face{
+	font-family: 'Letras';
+	src: url(KiwiMaru-Light.ttf);
+	font-weight: bold;
+}
+
+body{
+	background-color: var(--azulito);
+}
+
+table{
+	background-color: white;
+	border: solid 3px;
+}
+
+table th{
+	background-color: var(--bar);
+	color: white;
+	border: solid 3px;
+	width: 17vw;
+}
+
+table td{
+	border-left: solid 2px;
+	border-right: solid 2px;
+	border-bottom: solid 2px;
+	text-align: center;
+}
+
+.especial{
+	border: none;
+	
+}
+
+.main{
+	margin-left: 5%;
+	margin-top: 2%;
+}
+
+.main .default{
+	max-width: 90vw;
+	min-width: 90vw;
+	max-height: 40vh;
+	min-height: 40vh;
+	overflow-y:scroll;
+}
+
+.space{
+	margin-left: 10%;
+}
+
+.space-search{
+	margin-left: 45%;
+}
+
+.space-buttons{
+	margin-left:3%;
+}
+
